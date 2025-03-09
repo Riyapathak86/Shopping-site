@@ -1,0 +1,265 @@
+
+ .nav-bar-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #ffffff;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+    font-family: Arial, sans-serif;
+    font-size: 19px;
+    font-weight: bold;
+    color: #000;
+background-color: #007bff; }
+  
+
+
+.cart-icon{
+color: grey;
+border-radius: 10px;
+border: 2px solid grey;
+margin-right: 30px;
+
+} 
+
+
+   .nav-bar-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+    font-family: Arial, sans-serif;
+    font-size: 19px;
+    font-weight: bold;
+    color: #000;
+    background-color: #222;
+  }
+  
+  .items {
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    color: #000;
+    transition: all 0.3s ease;
+  }
+  
+  .items:hover {
+    color: #ff3f3f;
+    font-weight: bold;
+  }
+  
+  /* Search Bar */
+  .search-bar {
+    display: flex;
+    align-items: center;
+    background-color: #f5f5f5;
+    padding: 5px 10px;
+    border-radius: 20px;
+    width: 200px;
+  }
+  
+  .search-bar input {
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 14px;
+    padding: 5px;
+    width: 100%;
+  }
+  
+  /* Icons */
+  .icon-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .icon {
+    margin-left: 15px;
+    cursor: pointer;
+    font-size: 18px;
+    color: #333;
+    transition: color 0.3s ease;
+  }
+  
+  .icon:hover {
+    color: #ffcc00;
+  }
+   body {
+    background-color: #f5f2f2;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: #222;
+    font-size: 1.2em; /* Adjust as needed */
+    font-weight: 400;
+    color: #333;
+  }
+  
+  .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 3 columns */
+    gap: 20px; /* Space between cards */
+    padding: 20px;
+  }
+  
+  .product-page {
+    display: flex;
+    background: #f5d2d2;
+    background-color: white;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 2px 10px rgb(153, 153, 190);
+    transition: box-shadow 0.3s ease-in-out;
+    width: 90%;
+    max-width: 1000px;
+    margin-bottom: 20px;
+    align-items: center;
+    gap: 40px;
+    /* border:2px solid rgb(124, 122, 122); */
+  }
+  
+  
+  .product-image-container {
+    flex: 1;
+   border:2px solid  #f0dede;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    padding: 20px;
+  }
+  
+  .product-image {
+    /* max-width: 300px; */
+    height: 300px;
+    width: 200px;
+  }
+  
+  
+  .product-info {
+    flex: 2;
+    text-align: left;
+  }
+  
+  .product-title {
+    font-size: 24px;
+    font-weight: 600;
+  }
+  
+  .product-description {
+    font-size: 14px;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  .product-price {
+    font-size: 20px;
+    font-weight: bold;
+    color: #111;
+    margin: 10px 0;
+  }
+  
+  .size-options {
+    display: flex;
+    gap: 10px;
+    margin: 15px 0;
+  }
+  
+  .size-button {
+    border: 1px solid #ddd;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    background: white;
+    transition: 0.3s;
+  }
+  
+  .size-button:hover {
+    background: black;
+    color: white;
+  }
+  
+  
+  .buy-now {
+    background: black;
+    color: white;
+    padding: 12px;
+    border: none;
+    width: 100%;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .buy-now:hover {
+    background: #444;
+  
+  
+  }
+  
+  .nav-bar-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+    font-family: Arial, sans-serif;
+    font-size: 19px;
+    font-weight: bold;
+    color: #000;
+    z-index: 1000; /* Ensures it stays above other elements */
+  }
+  
+  .logo {
+    font-size: 24px;
+  }
+  
+  .search-bar input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+  }
+  
+
+  
+  
+  body {
+    padding-top: 60px; /* Adjust based on navbar height */
+  }
+  .nav-bar-filter-wrapper {
+    position: fixed;
+    justify-content: space-between;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+    background-color: #f8f8f8;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+    z-index: 999;  
+ 
+  }  
+  .center{
+    text-align: center;
+ 
+    justify-content: center;
+    margin-left: 370px;
+   
+  }
+  .detailedcontainer{
+    display: flex;
+    flex-direction: column;
+  }
