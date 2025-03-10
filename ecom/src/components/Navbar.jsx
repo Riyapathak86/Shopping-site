@@ -5,8 +5,7 @@ import NavFilter from "./NavFilter";
 import ecomContext from "../contextState/ecomContext"; 
 
 const Navbar = () => {
-  const { filteredProducts, setFilteredProducts } = useContext(ecomContext); 
-  const [searchTerm, setSearchTerm] = useState("");
+  const { filteredProducts, setFilteredProducts,searchTerm, setSearchTerm} = useContext(ecomContext);
 
   const searchedProducts = filteredProducts.filter((item) =>
     item.title.toLowerCase().includes(searchTerm.toLowerCase())
