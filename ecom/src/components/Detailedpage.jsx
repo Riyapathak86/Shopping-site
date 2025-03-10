@@ -24,3 +24,4 @@ export const  Detailedpage= () => {
   )
 }
 export default Detailedpage
+A
