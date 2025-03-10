@@ -24,12 +24,7 @@ export const DetailsPage = () => {
       <div className="center">
         <h2>Product Details</h2>
         <ItemList products={detailed} />
-        <p>
-          <strong>Rating:</strong> ⭐⭐⭐⭐☆ (4/5)
-        </p>
-        <p>
-          <strong>Availability:</strong> In Stock
-        </p>
+    
       </div>
       <h3>Related Products</h3>
       <ItemList products={related} />
