@@ -22,7 +22,8 @@ const ItemList = ({ products = [] }) => {
     
     })
    
-    setcartno(prev => prev + 1);
+   
+    setcartno(cartno+1);
  
   };
 

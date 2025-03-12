@@ -3,10 +3,11 @@ import { Link } from "react-router-dom";
 import ecomContext from "../contextState/ecomContext";
 
 const Cart = () => {
-  const { cartArry, setcartArry ,cartno} = useContext(ecomContext);
+  const { cartArry, setcartArry ,cartno,setcartno} = useContext(ecomContext);
 
   const removeFromCart = (id) => {
     setcartArry(cartArry.filter((item) => item.id !== id));
+    setcartno(cartno-1);
   };
 
   let totalPrice = 0;
