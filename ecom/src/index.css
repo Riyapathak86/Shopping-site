@@ -217,7 +217,7 @@ padding:5px
     font-size: 19px;
     font-weight: bold;
     color: #000;
-    z-index: 1000; /* Ensures it stays above other elements */
+    z-index: 1000; 
   }
   
   .logo {
@@ -236,7 +236,7 @@ padding:5px
   
   
   body {
-    padding-top: 60px; /* Adjust based on navbar height */
+    padding-top: 60px;  
   }
   .nav-bar-filter-wrapper {
     position: fixed;
