@@ -4,7 +4,7 @@ import DetailsPage from "./DetailsPage"
 import Navbar from "./Navbar"
 import {items }from "./ItemData"
 import NavFilter from "./NavFilter"
-
+import Cart from "./Cart"
 export const Router = createBrowserRouter([
     {
         path : '/',
@@ -22,7 +22,11 @@ export const Router = createBrowserRouter([
                 path : '/detailedpage',
                 element : <DetailsPage/>
             },
-           
+                                                
+            {
+                path : '/cartpage',
+                element : <Cart/>
+            },
         ]
     }
 ])

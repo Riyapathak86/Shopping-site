@@ -20,15 +20,19 @@ export const DetailsPage = () => {
   );
 
   return (
+    <>
+     <h2 style={{ textAlign: "center" }}>Product Details</h2>
     <div className="detailedcontainer">
       <div className="center">
-        <h2>Product Details</h2>
+
+
         <ItemList products={detailed} />
     
       </div>
-      <h3>Related Products</h3>
+      <h3 style={{ textAlign: "center" }}> Related Products</h3>
       <ItemList products={related} />
     </div>
+    </>
   );
 };
 
