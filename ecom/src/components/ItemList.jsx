@@ -6,8 +6,6 @@ import ecomContext from "../contextState/ecomContext";
 
 const ItemList = ({ products = [] }) => {
   const { setcartArry ,cartno, setcartno} = useContext(ecomContext); 
-
-
   const handleCartClick = (img,title,price,id) => {
 
     setcartArry(praevdata=>{ 
