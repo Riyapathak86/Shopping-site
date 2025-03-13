@@ -40,7 +40,6 @@ const ItemList = ({ products = [] }) => {
                 />
               </Link>
             </div>
-
             <div className="product-info">
               <h2 className="product-title">{item.title}</h2>
               <p className="product-description">{item.description}</p>
