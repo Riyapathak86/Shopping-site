@@ -20,16 +20,7 @@ A simple and responsive shopping website built using **ReactJS**. This project d
 
 ## 📁 Folder Structure
 
-You said:
-https://github.com/Riyapathak86/Shopping-site  iske liye readme de
 
-
-ChatGPT said:
-Sure Riya! Here's a clean and professional README.md for your shopping site project hosted at: Riyapathak86/Shopping-site
-
-markdown
-Copy
-Edit
 # 🛒 Shopping Site
 
 A simple and responsive shopping website built using **ReactJS**. This project demonstrates basic functionality of an e-commerce platform including homepage layout, product display, and navigation.
