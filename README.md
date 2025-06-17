@@ -1,52 +1,39 @@
-# 🛒 Shopping Site
+🛒 Shopping Site
+A simple and responsive shopping website built using ReactJS. This project demonstrates the basic functionality of an e-commerce platform including homepage layout, product display, and navigation.
 
-A simple and responsive shopping website built using **ReactJS**. This project demonstrates basic functionality of an e-commerce platform including homepage layout, product display, and navigation.
+✨ Features
+Responsive and modern UI
 
-## ✨ Features
+Product cards using reusable components
 
-- Responsive and modern UI
-- Product card design using reusable components
-- Navigation bar for branding and category links
-- Clean folder structure using React best practices
+Navigation bar for branding and category links
 
-## 🚀 Tech Stack
+Clean folder structure following React best practices
 
-- **ReactJS** – Frontend library
-- **JavaScript (ES6)** – Logic and interaction
-- **HTML5 & CSS3** – Markup and styling
-- **Bootstrap / Custom CSS** – For layout and responsiveness
+🚀 Tech Stack
+ReactJS – Frontend library
 
+JavaScript (ES6) – Logic and interaction
 
+HTML5 & CSS3 – Markup and styling
 
-## 📁 Folder Structure
+Bootstrap / Custom CSS – For layout and responsiveness
 
-
-# 🛒 Shopping Site
-
-A simple and responsive shopping website built using **ReactJS**. This project demonstrates basic functionality of an e-commerce platform including homepage layout, product display, and navigation.
-
-## ✨ Features
-
-- Responsive and modern UI
-- Product card design using reusable components
-- Navigation bar for branding and category links
-- Clean folder structure using React best practices
-
-## 🚀 Tech Stack
-
-- **ReactJS** – Frontend library
-- **JavaScript (ES6)** – Logic and interaction
-- **HTML5 & CSS3** – Markup and styling
-- **Bootstrap / Custom CSS** – For layout and responsiveness
-
-
-
-Shopping-site/
+📁 Folder Structure
+css
+Copy
+Edit
+shopping-site/
 ├── public/
+│   └── index.html
 ├── src/
-│ ├── components/
-│ ├── App.js
-│ ├── index.js
-│ └── ...
+│   ├── components/
+│   │   ├── Navbar.js
+│   │   ├── ProductCard.js
+│   │   └── ...
+│   ├── App.js
+│   ├── index.js
+│   └── styles/
+│       └── main.css
 ├── package.json
 └── README.md
