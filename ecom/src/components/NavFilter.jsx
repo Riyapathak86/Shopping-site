@@ -3,7 +3,7 @@ import ItemList from "./ItemList";
 import { useContext } from "react";
 import ecomContext from "../contextState/ecomContext";
 const NavFilter = () => {
-  const { filteredProducts, setFilteredProducts ,searchTerm, setSearchTerm} = useContext(ecomContext);
+  const { filteredProducts, setFilteredProducts ,searchTerm, setSearchTerm,items} = useContext(ecomContext);
 
   const filterByCategory = (category) => {
     if (category === "all") {
@@ -52,12 +52,7 @@ const NavFilter = () => {
         <div onClick={() => filterByPrice(89999)} className="items">
           {">="} 89999
         </div>
-        <input
-            type="text"
-            placeholder="Search Products"
-            value={searchTerm}
-            onChange={(e) => setSearchTerm(e.target.value)}
-          />
+
       </div>
 
       <ItemList products={searchedProducts} />
