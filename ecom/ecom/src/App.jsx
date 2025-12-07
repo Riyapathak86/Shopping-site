@@ -8,11 +8,12 @@ import { useContext } from 'react'
 import EcomContext from './contextState/ecomContext'
 import DetailsPage from './components/DetailsPage'
 const App = () => {
-const {x}=useContext(EcomContext)
-console.log(x)
+// const {x}=useContext(EcomContext)
+// console.log(x)
   return (
     <div>
-  <Navbar/>      <Outlet />
+  <Navbar/>  
+  <Outlet />
     </div>
   )
 }

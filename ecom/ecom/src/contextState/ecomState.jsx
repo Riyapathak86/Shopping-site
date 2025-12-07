@@ -6,11 +6,25 @@ const EcomState = ({ children }) => {
   // Initialize state with items
   const [filteredProducts, setFilteredProducts] = useState(items);
   const [searchTerm, setSearchTerm] = useState("");
-const x=8;
+  const [cartArry ,setcartArry] = useState([]);
+  const [cartno, setcartno] = useState(0);
+
+  const x = 8;
+
   return (
-    <ecomContext.Provider value={{ filteredProducts, setFilteredProducts ,searchTerm, setSearchTerm, setSearchTerm,x}}>
-      {children} 
-      
+    <ecomContext.Provider value={{  
+        items,  
+        filteredProducts, 
+        setFilteredProducts,
+        searchTerm, 
+        setSearchTerm,
+        x,
+        cartArry,
+        setcartArry,
+        cartno, 
+        setcartno,
+    }}>
+      {children}
     </ecomContext.Provider>
   );
 };
