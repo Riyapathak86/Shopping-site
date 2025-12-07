@@ -3,11 +3,19 @@ import { Link } from "react-router-dom";
 import ecomContext from "../contextState/ecomContext";
 
 const Cart = () => {
+<<<<<<< HEAD
   const { cartArry, setcartArry ,cartno ,setcartno} = useContext(ecomContext);
 
   const removeFromCart = (id) => {
     setcartArry(cartArry.filter((item) => item.id !== id));
     setcartno(cartno - 1);
+=======
+  const { cartArry, setcartArry ,cartno,setcartno} = useContext(ecomContext);
+
+  const removeFromCart = (id) => {
+    setcartArry(cartArry.filter((item) => item.id !== id));
+    setcartno(cartno-1);
+>>>>>>> 6403659a0bcddfe866833c7b572ff8200ffe4ace
   };
 
   let totalPrice = 0;
@@ -17,6 +25,7 @@ const Cart = () => {
 
   let shippingPrice = 50;
 
+<<<<<<< HEAD
 
 const increase=()=>{
   console.log(cartArry.price)
@@ -26,6 +35,10 @@ const increase=()=>{
 
   return (
     <div className="card ">
+=======
+  return (
+    <div className="card">
+>>>>>>> 6403659a0bcddfe866833c7b572ff8200ffe4ace
       <div className="container card-body">
         {cartArry.length === 0 ? (
           <h2 className="empty-cart">🛒 Your cart is empty</h2>
@@ -46,9 +59,15 @@ const increase=()=>{
                   <p className="product-description">{item.description}</p>
                   <p className="product-price">₹{item.price}</p>
                   <div className="cart-quantity">
+<<<<<<< HEAD
                     {/* <button className="decrease">-</button> */}
                     <span className="quantity">1</span>
                     {/* <button className="increase" onClick={increase}>+</button> */}
+=======
+                    <button className="decrease">-</button>
+                    <span className="quantity"></span>
+                    <button className="increase">+</button>
+>>>>>>> 6403659a0bcddfe866833c7b572ff8200ffe4ace
                   </div>
                   <button
                     className="cart-remove"

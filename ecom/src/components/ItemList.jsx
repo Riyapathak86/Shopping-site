@@ -6,8 +6,11 @@ import ecomContext from "../contextState/ecomContext";
 
 const ItemList = ({ products = [] }) => {
   const { setcartArry ,cartno, setcartno} = useContext(ecomContext); 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 6403659a0bcddfe866833c7b572ff8200ffe4ace
   const handleCartClick = (img,title,price,id) => {
 
     setcartArry(praevdata=>{ 
@@ -15,14 +18,23 @@ const ItemList = ({ products = [] }) => {
         {
           image:img,
           name:title,
+<<<<<<< HEAD
            price:price,
+=======
+          price:price,
+>>>>>>> 6403659a0bcddfe866833c7b572ff8200ffe4ace
           id:id,
         }
       ]
     
     })
    
+<<<<<<< HEAD
     setcartno(prev => prev + 1);
+=======
+   
+    setcartno(cartno+1);
+>>>>>>> 6403659a0bcddfe866833c7b572ff8200ffe4ace
  
   };
 
@@ -41,7 +53,6 @@ const ItemList = ({ products = [] }) => {
                 />
               </Link>
             </div>
-
             <div className="product-info">
               <h2 className="product-title">{item.title}</h2>
               <p className="product-description">{item.description}</p>

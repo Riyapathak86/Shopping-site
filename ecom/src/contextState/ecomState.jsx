@@ -12,7 +12,11 @@ const EcomState = ({ children }) => {
 const x=8;
   return (
     <ecomContext.Provider value={{  items,  filteredProducts, setFilteredProducts ,
+<<<<<<< HEAD
       searchTerm, setSearchTerm,x
+=======
+      searchTerm, setSearchTerm, setSearchTerm,x
+>>>>>>> 6403659a0bcddfe866833c7b572ff8200ffe4ace
       ,cartArry ,setcartArry,
       cartno, setcartno,
     }}>
